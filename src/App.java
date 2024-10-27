@@ -1,17 +1,15 @@
-import visao.ClasseProdutoVisao;
-import visao.ProdutoVisao;
-import visao.SubClasseProdutoVisao;
+
+import visao.SubClasseProdutoMenu;
+//import visao.ClasseProdutoMenu;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        // ClasseProdutoVisao visao = new ClasseProdutoVisao();
-        // visao.Exibir();
 
-        // SubClasseProdutoVisao visao = new SubClasseProdutoVisao();
-        // visao.Exibir();
+        // ClasseProdutoMenu menuzinho = new ClasseProdutoMenu();
+        // menuzinho.ExibirMenu();
 
-        ProdutoVisao visao = new ProdutoVisao();
-        visao.Exibir();
+        SubClasseProdutoMenu menuzinho = new SubClasseProdutoMenu();
+        menuzinho.ExibirMenu();
 
     }
 
